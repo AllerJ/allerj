@@ -1,0 +1,238 @@
+.wp-block-allerj-dash-block {
+    color: var(--body-text);
+}    
+.brandColor, .brandColor a { color: var(--brand-color) !important;}
+.brandDark, .brandDark a { color: var(--brand-dark) !important;}
+.brandAlt, .brandAlt a { color: var(--brand-alt) !important;}
+.textColor { color: var(--body-text) !important;}
+.white, .white a { color: #fff !important;}
+.black, .black a { color: #000 !important;}
+
+
+.has-brand-color-color  { color: var(--brand-color) !important;}
+.has-brand-dark-color  { color: var(--brand-dark) !important;}
+.has-brand-alt-color  { color: var(--brand-alt) !important;}
+.has-body-text-color  { color: var(--body-text) !important;}
+.has-white-color  { color: #fff !important;}
+.has-black-color  { color: #000 !important;}
+
+
+.has-brand-color-background-color  { background-color: var(--brand-color) !important;}
+.has-brand-dark-background-color  { background-color: var(--brand-dark) !important;}
+.has-brand-alt-background-color  { background-color: var(--brand-alt) !important;}
+.has-body-text-background-color  { background-color: var(--body-text) !important;}
+.has-white-background-color  { background-color: #fff !important;}
+.has-black-background-color  { background-color: #000 !important;}
+
+
+
+
+
+.center, .text-center {
+    text-align: center !important;
+}
+.right, .text-right {
+    text-align: right !important;
+}
+.left, .text-left {
+    text-align: left !important;
+}
+.uppercase {
+    text-transform: uppercase !important;
+}
+.lowercase {
+    text-transform: lowercase !important;
+}
+.text-transform-none {
+    text-transform: none !important;
+}
+.font-tiny {
+    font-size: .5rem !important;
+}
+.font-small {
+    font-size: .75rem !important;
+}
+.font-medium {
+    font-size: 1rem !important;
+}
+.font-large {
+    font-size: 1.25rem !important;
+}
+.font-xl {
+    font-size: 1.5rem !important;
+}
+.font-xxl {
+    font-size: 1.75rem !important;
+}
+
+.font-4px {
+    font-size: 0.25rem !important;
+}
+.font-8px	{
+    font-size:	0.5rem !important;
+}
+.font-10px	{
+    font-size:	0.625rem !important;
+}
+.font-12px	{
+    font-size:	0.75rem !important;
+}
+.font-14px	{
+    font-size:	0.875rem !important;
+}
+.font-16px	{
+    font-size:	1rem !important;
+}
+.font-18px	{
+    font-size:	1.125rem !important;
+}
+.font-20px	{
+    font-size:	1.25rem !important;
+}
+.font-22px	{
+    font-size:	1.375rem !important;
+}
+.font-24px	{
+    font-size:	1.5rem !important;
+}
+.font-32px	{
+    font-size:	2rem !important;
+}
+.font-36px	{
+    font-size:	2.25rem !important;
+}
+.font-48px	{
+    font-size:	3rem !important;
+}
+.font-56px	{
+    font-size:	3.5rem !important;
+}
+.font-64px	{
+    font-size:	4rem !important;
+}
+.font-72px	{
+    font-size:	4.5rem !important;
+}
+
+.thin-100 {
+    font-weight: 100 !important;
+}
+.extra-light-200 {
+    font-weight: 200 !important;
+}
+.light-300 {
+    font-weight: 300 !important;
+}
+.regular-400 {
+    font-weight: 400 !important;
+}
+.medium-500 {
+    font-weight: 500 !important;
+}
+.semi-bold-600 {
+    font-weight: 600 !important;
+}
+.bold-700 {
+    font-weight: 700 !important;
+}
+.extra-bold-800 {
+    font-weight: 800 !important;
+}
+.black-900 {
+    font-weight: 900 !important;
+}
+.space-1px {
+    letter-spacing: 1px !important;
+}
+.space-2px {
+    letter-spacing: 2px !important;
+}
+.space-3px {
+    letter-spacing: 3px !important;
+}
+.space-4px {
+    letter-spacing: 4px !important;
+}
+.space-5px {
+    letter-spacing: 5px !important;
+}
+.space-6px {
+    letter-spacing: 6px !important;
+}
+.space-7px {
+    letter-spacing: 7px !important;
+}
+.space-8px {
+    letter-spacing: 8px !important;
+}
+.space-9px {
+    letter-spacing: 9px !important;
+}
+.space-10px {
+    letter-spacing: 10px !important;
+}
+
+.lineheight-half {
+    line-height: .5em !important;
+}
+.lineheight-1 {
+    line-height: 1em !important;
+}
+.lineheight-1-5 {
+    line-height: 1.5em !important;
+}
+.lineheight-double {
+    line-height: 2em !important;
+}
+
+
+
+
+.btn-no-radius, .btn-square {
+  border-radius: 0px !important;
+}
+.btn-brand { 
+  color: #ffffff !important; 
+  background-color: var(--brand-color); 
+  border-color: var(--brand-color); 
+} 
+ 
+.btn-brand:hover, 
+.btn-brand:focus, 
+.btn-brand:active, 
+.btn-brand.active, 
+.open .dropdown-toggle.btn-brand { 
+  color: #ffffff !important; 
+  background-color: var(--brand-dark); 
+  border-color: var(--brand-color); 
+} 
+ 
+.btn-brand:active, 
+.btn-brand.active, 
+.open .dropdown-toggle.btn-brand { 
+  background-image: none; 
+} 
+ 
+.btn-brand.disabled, 
+.btn-brand[disabled], 
+fieldset[disabled] .btn-brand, 
+.btn-brand.disabled:hover, 
+.btn-brand[disabled]:hover, 
+fieldset[disabled] .btn-brand:hover, 
+.btn-brand.disabled:focus, 
+.btn-brand[disabled]:focus, 
+fieldset[disabled] .btn-brand:focus, 
+.btn-brand.disabled:active, 
+.btn-brand[disabled]:active, 
+fieldset[disabled] .btn-brand:active, 
+.btn-brand.disabled.active, 
+.btn-brand[disabled].active, 
+fieldset[disabled] .btn-brand.active { 
+  background-color: var(--brand-color); 
+  border-color: var(--brand-color); 
+} 
+ 
+.btn-brand .badge { 
+  color: var(--brand-color); 
+  background-color: #ffffff; 
+}

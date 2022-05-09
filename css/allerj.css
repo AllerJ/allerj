@@ -1,0 +1,96 @@
+.navbar-brand {
+	height: 100px;
+}
+
+.allerj_site_logo {}
+
+.name_holder {
+	height: 75vh;
+}
+
+.contact_holder {
+	height: 15vh;
+}
+
+.name_holder .wp-block-group__inner-container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+}
+
+.gray_10_background {
+	background-color: color(srgb 0 0 0 / 0.02)
+}
+
+.gray_20_background {
+	background-color: color(srgb 0 0 0 / 0.03)
+}
+
+/* TIMELINE */
+
+.c-timeline {
+	border-left-width: 2px;
+	border-left-style: solid;
+	margin-left: calc(1rem - 2px);
+	padding-left: 25px;
+	position: relative;
+}
+
+.t-border-color {
+	border-color: #ececec;
+}
+
+.c-timeline__item {
+	position: relative;
+}
+
+.t-timeline__point {
+	box-shadow: 0 0 0 6px #fff;
+}
+
+.t-primary-bg,
+.t-primary-color-line {
+	background: #F8BB10;
+}
+
+.c-timeline__point {
+	height: 10px;
+	width: 10px;
+	position: absolute;
+	left: -31px;
+	top: 3px;
+	border-radius: 50%;
+}
+
+.o-content {
+	padding-bottom: 2.7125rem;
+}
+
+.o-grid {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	position: relative;
+}
+
+.bold-brand-color strong {
+	color: var(--brand-color);
+}
+
+ul {
+	margin-left: 0px;
+	margin-top: 1rem;
+}
+
+@media screen and (min-width: 767px) {
+	.vh-lg-100 {
+		height: 100vh !important
+	}
+}
+
+/* .c-timeline .wp-block-group__inner-container, .c-timeline .wp-block-group {
+	display: inline-block;
+} */

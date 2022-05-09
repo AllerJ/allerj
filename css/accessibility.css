@@ -1,0 +1,325 @@
+.accessibility__contrast .brandColor { color: var(--acc_brand-color) !important;}
+.accessibility__contrast .brandDark { color: var(--acc_brand-dark) !important;}
+.accessibility__contrast .brandAlt { color: var(--acc_brand-alt) !important;}
+.accessibility__contrast .white { color: #fff !important;}
+.accessibility__contrast .black { color: #000 !important;}
+
+.accessibility__contrast a {
+    color: var(--acc_brand-color) !important;
+    border: dashed 1px var(--acc_brand-color);
+} 
+
+
+.accessibility__contrast .gray_10_background {
+    background-color: color(srgb 266 255 255 / 0.08) !important;
+}
+
+.accessibility__contrast .gray_20_background {
+    background-color: color(srgb 266 255 255 / 0.12) !important;    
+}
+.accessibility__contrast a:hover {
+    color: var(--acc_brand-color) !important;
+    border-color: var(--brand-color);
+} 
+
+.accessibility__contrast .short-brand-rule {
+    background-color: #fff !important;
+}
+
+.accessibility__contrast hr.has-brand-dark-background-color {
+    background-color: #fff !important;
+}
+
+.accessibility__contrast hr.has-brand-color-background-color {
+    background-color: #fff !important;
+}
+.accessibility__contrast hr.has-brand-color-color {
+    color: #fff !important;
+}
+.accessibility__contrast hr {
+    opacity: .75 !important;
+}
+.accessibility__contrast .bg-light {
+    background-color: #000 !important;
+}
+
+.accessibility__contrast .navbar-light .navbar-toggler {
+    background-color: #fff !important;
+}
+
+.accessibility__contrast .acc_invert {
+    -webkit-filter: invert(100%);
+    -webkit-filter: contrast(0%);
+    -webkit-filter: brightness(100);
+    filter: invert(100%);
+    filter: contrast(0%);
+    filter: brightness(100);
+}
+
+.mobile-menu-active .acctoggle {
+    opacity: 0;
+    visibility: 0;
+    display: none
+}
+
+.acctoggle {
+    background: transparent;
+    position: fixed;
+    right: auto;
+    top: auto;
+    bottom: 10vh;
+    z-index: 100;
+    transform: translateZ(4px);
+    transition: .2s;
+    will-change: opacity, visibility;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px
+}
+
+@media (min-width:768px) {
+    .acctoggle {
+        bottom: auto;
+        top: 60vh;
+        left: 0
+    }
+}
+
+.acctoggle__contrast {
+    border-top-right-radius: 6px;
+    border-top: 1px solid #0a2458;
+    border-right: 1px solid #0a2458
+}
+
+.accessibility__contrast .acctoggle__contrast {
+    border-right: 1px solid #ecc781;
+    border-top: 1px solid #ecc781
+}
+
+.acctoggle__fontsize {
+    border-bottom-right-radius: 6px;
+    border-right: 1px solid #0a2458;
+    border-bottom: 1px solid #0a2458
+}
+
+.accessibility__contrast .acctoggle__fontsize {
+    border-right: 1px solid #ecc781;
+    border-bottom: 1px solid #ecc781
+}
+
+.acctoggle button {
+    display: block;
+    background: #fff;
+    width: 44px;
+    height: 54px;
+    padding: 15px 12px;
+    transition: .3s;
+    position: relative;
+    z-index: 102
+}
+
+.accessibility__contrast .acctoggle button {
+    background: #121212
+}
+
+.accessibility__contrast .acctoggle button.active,
+.acctoggle button.active {
+    background: #ecc781
+}
+
+.acctoggle button.active svg {
+    color: #0a2458
+}
+
+.accessibility__contrast .acctoggle button.active svg {
+    color: #121212
+}
+
+.accessibility__contrast .acctoggle button.active:after,
+.accessibility__contrast .acctoggle button.active:before,
+.acctoggle button.active:after,
+.acctoggle button.active:before {
+    background: #ecc781
+}
+
+.acctoggle button:focus,
+.acctoggle button:hover {
+    background: #0a2458;
+    cursor: pointer
+}
+
+.accessibility__contrast .acctoggle button:focus,
+.accessibility__contrast .acctoggle button:hover {
+    background: #ecc781
+}
+
+.acctoggle button:focus svg,
+.acctoggle button:hover svg {
+    color: #fff
+}
+
+.accessibility__contrast .acctoggle button:focus svg,
+.accessibility__contrast .acctoggle button:hover svg {
+    color: #121212
+}
+
+.acctoggle button:focus:after,
+.acctoggle button:focus:before,
+.acctoggle button:hover:after,
+.acctoggle button:hover:before {
+    background: #0a2458
+}
+
+.accessibility__contrast .acctoggle button:focus:after,
+.accessibility__contrast .acctoggle button:focus:before,
+.accessibility__contrast .acctoggle button:hover:after,
+.accessibility__contrast .acctoggle button:hover:before {
+    background: #ecc781
+}
+
+.acctoggle button svg {
+    width: 100%;
+    height: 100%;
+    color: #0a2458;
+    display: block
+}
+
+.accessibility__contrast .acctoggle button svg {
+    color: hsla(0, 0%, 100%, .87)
+}
+
+.acctoggle .acctoggle__ctrl {
+    position: relative
+}
+
+.acctoggle .acctoggle__ctrl:focus-within .tool,
+.acctoggle .acctoggle__ctrl:focus .tool,
+.acctoggle .acctoggle__ctrl:hover .tool {
+    opacity: 1;
+    display: inline-block;
+    transform: translate(52px, -50%)
+}
+
+.acctoggle .acctoggle__ctrl+.acctoggle__ctrl {
+    margin-top: .5px
+}
+
+.acctoggle .acctoggle__ctrl:first-of-type {
+    border-top-right-radius: 6px
+}
+
+.acctoggle .acctoggle__ctrl:first-of-type button:after {
+    content: "";
+    width: calc(100% + 1px);
+    height: .25px;
+    background: #0a2458;
+    position: absolute;
+    bottom: -.5px;
+    left: 0
+}
+
+.accessibility__contrast .acctoggle .acctoggle__ctrl:first-of-type button:after {
+    background: #121212
+}
+
+.acctoggle .acctoggle__ctrl:last-of-type {
+    border-bottom-right-radius: 6px
+}
+
+.acctoggle .acctoggle__ctrl:last-of-type button:after {
+    content: "";
+    width: calc(100% + 1px);
+    height: .25px;
+    background: #0a2458;
+    position: absolute;
+    top: -.5px;
+    left: 0
+}
+
+.accessibility__contrast .acctoggle .acctoggle__ctrl:last-of-type button:after {
+    background: #121212
+}
+
+.acctoggle .tool {
+    z-index: 101;
+    position: absolute;
+    background: #0a2458;
+    top: 50%;
+    transform: translate(-180px, -50%);
+    width: 180px;
+    text-align: center;
+    padding: 4px 8px;
+    line-height: 110%;
+    transition: .3s
+}
+
+.accessibility__contrast .acctoggle .tool {
+    background: #ecc781
+}
+
+@media (768px) {
+    .acctoggle .tool {
+        display: block
+    }
+}
+
+@media (992px) {
+    .acctoggle .tool {
+        right: 65px;
+        left: 65px
+    }
+}
+
+.acctoggle .tool:after {
+    content: "";
+    transition: .3s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -7px;
+    width: 0;
+    height: 0;
+    border-bottom: 7px solid transparent;
+    border-top: 7px solid transparent;
+    border-right: 7px solid #0a2458;
+    border-left: 0;
+    font-size: 0;
+    line-height: 0
+}
+
+.accessibility__contrast .acctoggle .tool:after {
+    border-right: 7px solid #ecc781
+}
+
+@media (992px) {
+    .acctoggle .tool:after {
+        border-left: 0;
+        border-right: 7px solid #0a2458;
+        left: -7px
+    }
+    .accessibility__contrast .acctoggle .tool:after {
+        border-left: 0;
+        border-right: 7px solid #ecc781
+    }
+}
+
+.acctoggle .tool span {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff
+}
+
+.accessibility__contrast .acctoggle .tool span {
+    color: #121212
+}
+
+
+
+.accessibility__contrast body {
+    background: #121212;
+    color: hsla(0,0%,100%,.87);
+}
+
+.accessibility__fontsize {
+    font-size: 24px;
+}
